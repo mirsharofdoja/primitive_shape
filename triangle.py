@@ -9,4 +9,4 @@ class Triangle(Polygon):
         return self.a+self.b+self.c
     def getArea(self):
         p=self.getPerimeter()/2
-        return (p*(p-self.a)*(p*self.b)*(self.c))**0.5
+        return (p*(p-self.a)*(p-self.b)*(p-self.c))**0.5
