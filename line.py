@@ -14,4 +14,4 @@ class Line:
         Returns:
             float or int: distance.
         """
-        pass
+        return ((self.x2-self.x1)**2+(self.y2-self.y1)**2)**0.5
